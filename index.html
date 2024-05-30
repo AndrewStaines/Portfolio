@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width = device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+    <section id="home">
+        <div class="container" id="navbar">
+            <div class="navbar">
+                <div class="menu">
+                    <ul type="none">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <li><a href="./New Resume.pdf">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hidden">
+        <div class="cons">
+            <div class="con hidden">
+                <h1>You didn't come this far</h1>
+            </div>
+            <div class="con hidden">
+                <h1>to come this far...</h1>
+            </div>
+        </div>
+    </section>
+
+  <section id="about">
+    <div class="wrapper">
+        <img src="assets\pfp.jpg" alt="profile" class="pfp">
+        <div class="static-txt">I'm a</div>
+        <ul class="dynamic-txts">
+          <li><span>Web Developer</span></li>
+          <li><span>AI Enthusiast</span></li>
+          <li><span>Electonics Engineer</span></li>
+          <li><span>Freelancer</span></li>
+        </ul>
+      </div>
+  </section>
+  <section class="hidden" >
+    <h2>About me</h2>
+    <div class="latch">
+        <div class="let slide">
+            <p>
+                I am a 3rd year Student with a passion for Web Development, AI and Electronics. I am currently pursuing my Bachelors in Electronics and Communication Engineering from Kongu Engineering College, Erode. I am a self taught MERN stack Developer and have been working on various projects for the past 6 months. I am also a part of the GravityeX Technologies and working as Electronics Engineer. I am currently working myself in the field of AI and have been working on various projects.
+            </p>
+        </div>
+    </div>
+  </section>
+  <section class="slide" id="skills">
+    <h2>Skills</h2>
+    <canvas id="myBarChart" width="1200" height="750"></canvas>
+  </section>
+    <section class="hidden" id="projects">
+        <h2>Projects</h2>
+        <div class="latch">
+            <div class="latch1">
+                <a href="https://github.com/AndrewStaines/DPBH-Extension">
+                    <div class="let slide">
+                        <p class="ti">Dark Patterns Busting Hackathon</p> <br>
+                        Dark patterns refer to user interface design practices that intentionally manipulate or deceive users into making choices that may not be in their best interest. Our aim was to create a chrome extension that would detect and warn the user about the dark patterns in the website.
+                    </div>
+                </a>
+                <a href="https://github.com/AndrewStaines/SIHNEW">
+                    <div class="let slide">
+                        <p class="ti">Smart India Hackathon</p> <br>
+                        Geting funding for a project is a tedious task. We created a website that would connect various startup fellows, angel investors, venture capitalists, incubators and accelerators. This would help the startup fellows to get funding for their projects. This problem statement was addressed by Ministry of Ayush.
+                    </div>
+                </a>
+            </div>
+            <div class="latch1">
+                <a href="https://lung-cancer-prediction.streamlit.app/">
+                    <div class="let slide">
+                        <p class="ti">Lung Cancer Prediction</p> <br>
+                        Lung cancer is the leading cause of cancer deaths worldwide. Early detection of lung cancer can help in reducing the mortality rate. I created a ML model that would predict the lung cancer based on the features provided by the user. This model was deployed using Streamlit and can be accessed. This is a simple model that was made for learning purposes.
+                    </div>
+                </a>
+                <a href="https://github.com/AndrewStaines/SIHNEW">
+                    <div class="let slide">
+                        <p class="ti">Concrete 3D Printer</p><br>
+                        Concrete 3D printers are specialized machines designed to fabricate three-dimensional structures using concrete as the primary building material. These printers layer concrete in a precise manner, allowing for the construction of intricate and customized architectural elements, ranging from walls and buildings to infrastructure components.
+                        I joined as a intern in GravityeX Technologies and worked as Electronics Engineer. We a team of 5 members designed and configured the firmware for the 3D printer. It is still under development.
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section  id="contact">
+        <h2 class="slide">Contact me</h2>
+        <div class="lat">
+            <div class="info hidden">
+                <div class="sub">
+                    <h4>Andrew William Staines</h4>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/andrewilliam.15/"><img src="assets\insta.png" alt="insta" class="insta"></a>
+                        <a href="https://twitter.com/AndrewStaines_"><img src="assets\twe.png" alt="twitter" class="insta"></a>
+                        <a href="https://github.com/AndrewStaines"><img src="assets\gh.png" alt="github" class="insta"></a>
+                        <a href="https://www.linkedin.com/in/andrew-william-staines/"><img src="assets\li.png" alt="linkedin" class="insta"></a>
+                        <a href="https://www.kaggle.com/andrewstaines"><img src="assets\kaggle.png" alt="kaggle" class="insta"></a>
+                    </div>
+                </div>
+                <div class="sub2">
+                    <h5>You can mail me at</h5><br>
+                    <h5>andrewwilliamstaines@gmail.com</h5>
+                </div>
+            </div>
+      </section>
+</body>
+</html>
